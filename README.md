@@ -1,6 +1,6 @@
-# Board Genius: Ranked Starts
+# Genius Square: Ranked Starts
 
-Board Genius without the game-dice restriction has 8,347,680 possible 7‑blocker starts on a 6×6 board. We collapse those by D4 symmetry into 1,044,690 unique starting positions, filter by parity (1,036,620 parity‑possible; 8,070 parity‑impossible), and then solve the remaining boards to determine which starts are actually solvable (1,022,933 solvable; 13,687 unsolvable) and how many solutions each has.
+Genius Square without the game-dice restriction has 8,347,680 possible 7‑blocker starts on a 6×6 board. We collapse those by D4 symmetry into 1,044,690 unique starting positions, filter by parity (1,036,620 parity‑possible; 8,070 parity‑impossible), and then solve the remaining boards to determine which starts are actually solvable (1,022,933 solvable; 13,687 unsolvable) and how many solutions each has.
 
 Utilities for generating, filtering, and analyzing 7-blocker starting boards on a 6×6 grid under D4 symmetries. The scripts compute unique blocker combinations, parity feasibility, solvability, and detailed board diagnostics.
 
