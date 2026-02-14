@@ -31,6 +31,8 @@ Install deps:
 
 CSV source lists live under data/. Scripts write generated outputs to output/ by default.
 
+Note: data/01_sym_to_unique_id.csv is ignored in git due to GitHub size limits. Regenerate it with step 1 in the pipeline.
+
 CSV outputs are written to the working directory by default.
 
 ## Typical pipeline
